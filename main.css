@@ -90,9 +90,13 @@ footer {
 }
 @media only screen and (max-width: 1000px) {
   body {
-    background-color:lightblue;
+    background-color:lighred;
   }
   .main-content{
     height: 900px;
-  width: 1000px;}
+  width: 1000px;
+  }
+  .wrapper{
+   width: 1200px; 
+  }
 }
