@@ -22,6 +22,24 @@
     <div class="header">
       <center><img src="https://i.imgur.com/zqpwkLQ.png" /></center>
     </div>
+    <div class="card-body">
+                         <?php 
+                            $Msg = "";
+                            if(isset($_GET['error']))
+                            {
+                                $Msg = " Please Fill in the Blanks ";
+                                echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                            }
+ 
+                            if(isset($_GET['success']))
+                            {
+                                $Msg = " Vaša poruka je poslata. ";
+                                echo '<div class="alert alert-success">'.$Msg.'</div>';
+                            }
+                        
+                        ?>
+                    </div>
+    <form action="process.php" method="post">
     <div class="l-part">
       <input type="text" placeholder="Username" class="input-1" />
       <div class="overlap-text">
@@ -29,6 +47,7 @@
       </div>
       <input type="button" value="Log in" class="btn" />
     </div>
+    </form>
   </div>
 </div>
 <footer>
