@@ -81,9 +81,6 @@ body {
   
 }
 
-input:focus {
-    background-color: yellow;
-}
 footer {
    position: fixed;
    left: 0;
