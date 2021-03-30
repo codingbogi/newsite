@@ -40,7 +40,8 @@ body {
 
 .input-1,
 .input-2 {
-  width: 90%;
+  width: 80%;
+  height: 100px;
   margin-bottom: 5px;
   padding: 8px 12px;
   border: 1px solid #dbdbdb;
