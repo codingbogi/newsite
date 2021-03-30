@@ -41,6 +41,7 @@ body {
 .input-1,
 .input-2 {
   width: 80%;
+  left:10%;
   height: 100px;
   margin-bottom: 5px;
   padding: 8px 12px;
@@ -66,7 +67,8 @@ body {
 }
 
 .btn {
-  width: 90%;
+  width: 70%;
+  height: 100px;
   background-color: #3897f0;
   border: 1px solid #3897f0;
   padding: 5px 12px;
