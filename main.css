@@ -23,6 +23,7 @@ body {
   background-color: #fff;
   border: 2px solid #e6e6e6;
   padding: 40px 50px;
+  top: 100px;
 }
 
 .header {
@@ -90,13 +91,11 @@ footer {
 }
 @media only screen and (max-width: 1000px) {
   body {
-    background-color:lightblue;
+    background-color:blue;
   }
   .main-content{
     height: 900px;
-  width: 1000px;
+  width: 90%;
   }
-  .wrapper{
-   width: 1200px; 
-  }
+  
 }
