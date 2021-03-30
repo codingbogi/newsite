@@ -8,7 +8,7 @@ body {
 }
 
 #wrapper {
-  width: 100%;
+  width: 90%;
   height: 50%;
   overflow: hidden;
   border: 0px solid #000;
@@ -91,7 +91,7 @@ footer {
 }
 @media only screen and (max-width: 1000px) {
   body {
-    background-color:blue;
+    background-color:lightblue;
   }
   .main-content{
     height: 900px;
