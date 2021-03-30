@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #eec;
 }
 
 #wrapper {
@@ -102,4 +102,7 @@ footer {
   width: 90%;
   }
   
+}
+placeholder{
+font-size: 50px;
 }
