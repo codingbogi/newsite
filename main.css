@@ -28,7 +28,7 @@ body {
 
 .header {
   border: 0px solid #000;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 .header img {
@@ -41,7 +41,7 @@ body {
 .input-1,
 .input-2 {
   width: 80%;
-  left:10%;
+  margin-left:10%;
   height: 100px;
   margin-bottom: 5px;
   padding: 8px 12px;
@@ -68,6 +68,7 @@ body {
 
 .btn {
   width: 70%;
+  margin-left:15%;
   height: 100px;
   background-color: #3897f0;
   border: 1px solid #3897f0;
